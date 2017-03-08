@@ -20,15 +20,34 @@
 // Top Nav
 .section-header {
   background-color: tomato;
+  padding: 2rem;
 }
+
+.container-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+}
+
+.logo {
+  position: absolute;
+  top: 100%;
+
+}
+
 
 .nav-list {
   margin: 0;
+  position: absolute;
+  right: 1rem;
   display: flex;
-  justify-content: flex-end;
+
+  justify-content: center;
 
   &__item {
     margin-right: 1rem;
+    padding: 0;
   }
 
 }
