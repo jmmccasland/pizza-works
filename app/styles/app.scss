@@ -5,3 +5,30 @@
 // @import 'font-awesome';
 @import 'box-sizing';
 @import 'resets';
+
+
+
+.section {
+  padding: 1rem;
+}
+
+.container {
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+// Top Nav
+.section-header {
+  background-color: tomato;
+}
+
+.nav-list {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+
+  &__item {
+    margin-right: 1rem;
+  }
+
+}
